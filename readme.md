@@ -147,3 +147,16 @@ repozytorium z automatycznym dodawaniem ustawień podczas wczytywania.
 
 Użytkownik to nazwa użytkownika, token to wygenerowane hasło, a repozytorium
 to nazwa repozytorium.
+
+Jest to sposób łączenia się z repozytorium przy użyciu protokołu HTTPS.
+Innym sposobem jest łączenie się przy użyciu SSH.
+
+    git remote set-url origin git@github.com:uzytkownik/repozytorium.git
+
+## Podziękowania
+
+Dziękuję wszystkim osobom, które włożyły trud w dzieleniu się poszczególnymi
+częściami tego tekstu. Jest to zbiór wzięty z internetu i połączony w jedną
+całość. Mam nadzieję, że się przyda.
+
+vir
