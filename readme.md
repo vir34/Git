@@ -137,3 +137,13 @@ Uwaga. Każde repozytorium powinno mieć osobny folder. Pliki nie powinny
 ważyć zbyt dużo. Git obsługuje głównie pliki tekstowe, muzykę. Nie powinno
 się wrzucać bardzo dużych grafik po "ileśset mega", filmów pełnometrażowych,
 itd.
+
+## Ominięcie tokena
+
+Żeby ominąć wpisywanie nazwy użytkownika i tokena należy ustawić 
+repozytorium z automatycznym dodawaniem ustawień podczas wczytywania.
+
+    git remote set-url origin https://uzytkownik:token@github.com/uzytkownik/repozytorium.git
+
+Użytkownik to nazwa użytkownika, token to wygenerowane hasło, a repozytorium
+to nazwa repozytorium.
