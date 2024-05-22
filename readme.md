@@ -125,4 +125,15 @@ Podajemy nazwę, opis oraz zasięg publiczny lub prywatny. Tworzymy
 nowe repozytorium.
 
 W nowym oknie pokazują się nam komendy. Wklejamy je po kolei do terminala.
+Może je trochę zmienić, np. zamiast wpisywać git add README.md możemy podać
+komendę git add . itd. 
 
+Kiedy Git wyświetli nam linię "Username for github.com: " podajemy login,
+a w "Password for ..." podajemy hasło, czyli nasz token. Odświeżamy stronę
+i powinniśmy zobaczyć pliki, które wrzuciliśmy w taki sposób do naszego
+repozytorium.
+
+Uwaga. Każde repozytorium powinno mieć osobny folder. Pliki nie powinny
+ważyć zbyt dużo. Git obsługuje głównie pliki tekstowe, muzykę. Nie powinno
+się wrzucać bardzo dużych grafik po "ileśset mega", filmów pełnometrażowych,
+itd.
