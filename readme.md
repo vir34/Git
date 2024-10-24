@@ -153,6 +153,17 @@ Innym sposobem jest łączenie się przy użyciu SSH.
 
     git remote set-url origin git@github.com:uzytkownik/repozytorium.git
 
+## Usunięcie zdalnego dostępu
+
+Czasem chcemy usunąć zdalny dostęp, ponieważ mamy inną drogę, inny zdalny
+dostęp o tej samej nazwie i chcemy go dodać. Wtedy należy użyć polecenia
+
+    git remote remove <dostep>
+
+Przykład:
+
+    git remote remove origin
+
 ## Podziękowania
 
 Dziękuję wszystkim osobom, które włożyły trud w dzieleniu się poszczególnymi
